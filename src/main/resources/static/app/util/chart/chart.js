@@ -40,7 +40,7 @@ var myChart = React.createClass({
     };
     return (
       <div className='col-sm-8 col-sm-offset-2'>
-        <BarChart data={chartData} options={options} height="300" />
+        <BarChart data={chartData} options={options} height="500" />
       </div>
     );
   }
